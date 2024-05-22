@@ -14,3 +14,4 @@ for(i=0;i<parseInt(x);i++){//parseInt()is used to convert the value into integer
 }
 
 console.log(add);
+

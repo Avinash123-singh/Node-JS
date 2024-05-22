@@ -2,6 +2,9 @@
 
 const http=require('http')
 
-
-http.createServer().listen(4000)
+const dataControl= (req,resp)=>{
+    resp.write("<h1>hello everyone this is avinash singh</h1>")
+    resp.end()
+}
+http.createServer(dataControl).listen(4000)
 
